@@ -36,6 +36,40 @@ The REST API service allows seamless integration with the backend. It exposes en
 *   Swagger UI
 *   Bootstrap (for UI styling)
 
+# TestProduct
+
+
+TestProduct is an ASP.NET Core Web API project designed for managing product data. It shares similar features with TestProductWeb.
+
+## Features
+--------
+*   **Product Management**: CRUD operations for managing product data.
+*   **Search and Filtering**: Ability to search for products by name and filter the product list.
+*   **REST API**: Exposes endpoints for performing CRUD operations on products, visible in Swagger.
+
+## Getting Started
+---------------
+To get started with TestProduct, follow these steps:
+1.  Clone the repository to your local machine.
+2.  Open the solution in Visual Studio or your preferred IDE.
+3.  Build the solution to restore dependencies.
+4.  Run the project and navigate to the specified URL to access the application.
+
+## Usage
+-----
+### REST API Service
+The Web API service provides endpoints for managing product data. You can perform the following actions:
+*   Create new products
+*   Update existing products
+*   Delete products
+*   Filter and search for products by name
+
+## Technologies Used
+-----------------
+*   ASP.NET Core Web API
+*   Entity Framework Core
+*   Swagger UI
+
 ## Contributing
 ------------
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
